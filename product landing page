@@ -1,0 +1,71 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<style>
+  #sub1{
+    font-size:20px;
+   font-family:helvetica;
+    margin-top:160px;
+    display: flex;
+  }
+  #sub2{
+  font-size:20px;
+   font-family:helvetica;
+    display: flex;
+  }
+  #sub3{
+    font-size:20px;
+   font-family:helvetica;
+    
+  }
+  #header{
+    position:fixed;
+    display: flex;
+    margin-top:-160px;
+  }
+  @media (max-height: 800px) {
+  main{
+ font-size:30px;
+  }
+}
+  #header-img{
+    max-height:100px;
+      max-width:200px;
+     display: flex;
+  }
+  #form{
+  display: flex;
+  }
+  #video{
+    
+  }
+  
+</style>
+<main>
+<header id="header">
+  <img id="header-img" src="https://theworldoflu.files.wordpress.com/2012/07/scientology-symbol.jpg"></img>
+  <nav id="nav-bar">
+   
+    <button class="nav-link" href="#sub1"> church importance</button>
+     <button class="nav-link" href="#sub2"> give blood</button>
+     <button class="nav-link" href="#sub3"> give soul</button>
+  
+</nav>
+</header>
+<ul>
+<li><section id="sub1">how to pledge? enter your email!</section></li>
+  <li><section id="sub2">church is important!</section></li>
+  <li><section id="sub3">blood. i want it. gimme it.</section></li>
+  </ul>
+  
+  <video id="video"><source src="#" type="video/mp4"> 
+  </video>
+
+  <iframe width="344" height="258" src="https://www.youtube.com/embed/UFBZ_uAbxS0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<form id="form" action="https://www.freecodecamp.com/email-submit"> 
+<input id="email" placeholder="email" type="email" name="email">
+  <input id="submit" type="submit">
+</form>
+  </main>
+
+ 
