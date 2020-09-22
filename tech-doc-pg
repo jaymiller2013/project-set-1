@@ -1,0 +1,180 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main id="main-doc">
+  <style>
+    #div{
+       display: flex;
+flex-direction:column;
+    }
+    #main-doc{
+      background-color:white;
+    }
+    #top{
+        padding:5px 200px;
+       color:black;
+      background-color:gray;
+      font-size: 30px;
+      font-family: monospace;
+    }
+    #for_loop{
+        margin-top: 50px;
+       color:black;
+      font-size:20px;
+      font-family: monospace;
+    }
+   #while_loop{
+       margin-top: 20px;
+       color:black;
+      font-size:20px;
+      font-family: monospace;
+     
+    }
+    #if_loop{
+       margin-top: 20px;
+       color:black;
+      font-size:20px;
+      font-family: monospace;
+    }
+    #analog{
+      margin-top: 20px;
+       color:black;
+      font-size:20px;
+      font-family: monospace;
+    }
+    #digital{
+      margin-top: 20px;
+       color:black;
+      font-size:20px;
+      font-family: monospace;
+    }
+     
+    .nav-link{
+      margin-bottom:10px;
+      font-size:30px;
+      font-family: monospace;
+      color:black;
+      
+    }
+  
+    #navbar{
+       position:fixed;
+      display: flex;
+flex-direction:column;
+      
+      
+    }
+    @media (max-height:00px){
+      #main-doc{
+        font-size:5px;
+      }
+    }
+    .class{
+      font-family:monospace;
+     
+      background-color:grey;
+    }
+    .main-section{
+      margin-left:120px;
+     font-family:times-new-roman;
+      
+    }
+    
+    .button1{
+      display:inline-block;
+      background-color:light-gray;
+      border:none;
+      padding:15px 20px;
+      font-family:helvetica;
+      font-size:15px;
+     
+    }
+    .button2{
+      display:inline-block;
+      background-color:light-gray;
+      border:none;
+      padding:15px 11px;
+    font-family:helvetica;
+      font-size:15px;
+    }
+    .button3{
+      display:inline-block;
+      background-color:light-gray;
+      border:none;
+      padding:15px 25px;
+    font-family:helvetica;
+      font-size:15px;
+    }
+    .button4{
+      display:inline-block;
+      background-color:light-gray;
+      border:none;
+      padding:15px 22px;
+    font-family:helvetica;
+      font-size:15px;
+    }
+    .button5{
+      display:inline-block;
+      background-color:light-gray;
+      border:none;
+      padding:15px 25px;
+     font-family:helvetica;
+      font-size:15px;
+    }
+    
+  </style>
+  <nav id="navbar">
+    <header id="top">arduino!</header>
+    <a class="nav-link" href="#for_loop"><button class="button1">for loop</button></a>
+    <a class="nav-link" href="#while_loop"><button class="button2">while loop</button></a>
+    <a class="nav-link" href="#if_loop"><button class="button3">if loop</button></a>
+    <a class="nav-link" href="#analog"><button class="button4">analog</button></a>
+    <a class="nav-link" href="#digital"><button class="button5">digital</button></a>
+  </nav>
+  
+  <div id="div">
+  <section class="main-section" id="for_loop">
+    <header>for loop</header>
+  <p></p>
+    <code>ksjhfs</code>
+   <p></p>
+  
+  </section>
+  
+  <section class="main-section" id="while_loop">
+    <header>while loop</header>
+     <p></p>
+     <code></code>
+     <p></p>
+  </section>
+   
+  <section class="main-section" id="if_loop">
+    <header>if loop</header>
+     <p></p>
+     <code>lshlkfsd</code>
+     <p></p>
+  </section>
+   
+  <section class="main-section" id="analog">
+    <header>analog</header>
+     <p></p>
+     <code></code>
+     <p></p>
+    <ul>
+    <li></li>
+      <li></li>
+      </ul>
+  </section>
+ 
+  <section class="main-section" id="digital">
+    <header>digital</header>
+     <p></p>
+     <code></code>
+     <p></p>
+    <ul>
+    <li></li>
+      <li></li>
+      <li></li>
+      </ul>
+  </section>
+  </div>
+</main>
